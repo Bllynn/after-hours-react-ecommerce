@@ -1,1 +1,10 @@
+.app-middle-container {
+    display: flex;
+}
 
+.app-products-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 78vw;
+    justify-content: space-around;
+}
