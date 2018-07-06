@@ -1,0 +1,10 @@
+.home-middle-container {
+    display: flex;
+}
+
+.home-products-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 78vw;
+    justify-content: space-around;
+}

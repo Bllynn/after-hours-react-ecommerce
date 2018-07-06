@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Product.css'
 
 const Product = (props) => {
@@ -14,7 +15,9 @@ const Product = (props) => {
             <img src={ props.image } alt={props.name} />
             <h4> {props.name} </h4>
             <h4> {props.price} </h4>
-            <button onClick={ () => props.buy(product) }>Buy</button>
+            <Link to={`/product/${props.id}`} >
+                <button>Details</button>
+            </Link>
         </div>
     )
 }

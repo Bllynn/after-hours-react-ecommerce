@@ -1,0 +1,44 @@
+.login-card {
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    box-shadow: rgba(221, 221, 221, 0.5) 0px 1px 2px 0px;
+}
+
+.login-container {
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+form.login-edit-form {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    height: 300px;
+    width: 400px;
+    justify-content: space-evenly;
+}
+
+
+input.login-edit-input {
+    height: 35px;
+    width: 100%;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    padding: 0 10px;
+}
+
+button.login-edit-btn {
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto;
+    height: 50px;
+}
