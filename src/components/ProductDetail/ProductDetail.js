@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom'
 
 class ProductDetail extends React.Component {
         render(){
@@ -12,9 +13,11 @@ class ProductDetail extends React.Component {
 
             return (
                 <div>
-                    Name: { thisProduct.name ? thisProduct.name: null }
+                    <h1>Name: { thisProduct.name ? thisProduct.name: null } </h1>
                     <br />
-                    Price: { thisProduct.price ? thisProduct.price: null }
+                    <h1>Price: { thisProduct.price ? thisProduct.price: null } </h1>
+                    <br />
+                    <Link to='/'> Go Back </Link>
                 </div>
         )
     }
